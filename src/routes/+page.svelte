@@ -1,7 +1,13 @@
 <script>
+
+  import { onMount } from 'svelte';
 	import logo from '$lib/images/svelte-logo.svg';
 
-  const currentPath = window.location.href
+   let currentPath;
+
+    onMount(() => {
+        currentPath = window.location.href;
+    });
 </script>
 
 <svelte:head>
