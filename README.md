@@ -1,3 +1,17 @@
+
+# Deploy Config
+```bash
+# root directory
+leave empty
+
+# build command
+npm install && npm run build
+
+# publish directory
+build
+```
+
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
